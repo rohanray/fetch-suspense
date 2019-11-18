@@ -1,6 +1,6 @@
 {
-  "name": "fetch-suspense",
-  "version": "1.2.1",
+  "name": "@rohanray/fetch-suspense",
+  "version": "1.2.2",
   "author": "Charles Stover <npmjs@charlesstover.com>",
   "bugs": {
     "url": "https://github.com/rohanray/fetch-suspense/issues"
