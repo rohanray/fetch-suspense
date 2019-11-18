@@ -141,7 +141,7 @@ const createUseFetch: CreateUseFetch = (
 
         // Parse the response.
         .then((response: Response): Promise<FetchResponse> => {
-          cache.contentType = response.headers.get('Content-Type');
+          cache.contentType = response.headers.get('Content-Type') || response.headers.get('content-type');
           if (metadata) {
             cache.bodyUsed = response.bodyUsed;
             cache.headers = response.headers;
