@@ -3,13 +3,13 @@
   "version": "1.2.1",
   "author": "Charles Stover <npmjs@charlesstover.com>",
   "bugs": {
-    "url": "https://github.com/CharlesStover/fetch-suspense/issues"
+    "url": "https://github.com/rohanray/fetch-suspense/issues"
   },
   "description": "A React hook compatible with React 16.6's Suspense component.",
   "homepage": "https://github.com/CharlesStover/fetch-suspense#readme",
   "license": "MIT",
   "main": "fetch-suspense.js",
-  "repository": "https://github.com/CharlesStover/fetch-suspense.git",
+  "repository": "https://github.com/rohanray/fetch-suspense.git",
   "scripts": {
     "build": "tsc",
     "dev": "tsc --watch",
@@ -36,5 +36,6 @@
     "sinon": "^7.3.1",
     "ts-node": "^8.0.3",
     "typescript": "^3.1.5"
-  }
+  },
+  "publishConfig": { "registry": "https://npm.pkg.github.com/" }
 }
